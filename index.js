@@ -5,8 +5,8 @@ const morgan = require("morgan");
 
 app.use(express.json());
 app.use(cors());
-
 app.use(morgan("tiny"));
+app.use(express.static("dist"));
 
 let notes = [
   { id: 1, content: "HTML is easy", important: true },
