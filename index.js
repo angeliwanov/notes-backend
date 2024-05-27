@@ -26,14 +26,6 @@ app.get("/api/notes", (request, response) => {
   response.json(notes);
 });
 
-// app.put("api/notes/:id", (request, response) => {
-//   const id = Number(request.params.id);
-//   const updatedNote = request.params;
-//   console.log(updatedNote);
-//   response.send(204).end();
-//   // const note = notes.find((note) => note.id === id);
-// });
-
 app.get("/api/notes/:id", (request, response) => {
   const id = Number(request.params.id);
   const note = notes.find((note) => note.id === id);
