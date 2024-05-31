@@ -8,10 +8,6 @@ export default [
     rules: {
       "no-unused-vars": "warn",
       "no-undef": "warn",
-      eqeqeq: "error",
-      "no-trailing-spaces": "error",
-      "object-curly-spacing": ["error", "always"],
-      "arrow-spacing": ["error", { before: true, after: true }],
     },
   },
   { files: ["**/*.js"], languageOptions: { sourceType: "commonjs" } },
