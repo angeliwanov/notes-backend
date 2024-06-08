@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuZ2VsaXZhbm92IiwiaWQiOiI2NjYyODgwYmU0OTkzMzFkMGYzMzI4NzEiLCJpYXQiOjE3MTc3NzE5OTZ9.PZ1wwXCpOuiagqX-ifb2NDSTZq0jdP6ZrM4vgkFbYtI
+
+{
+  "content": "New note about React",
+  "important": true,
+  "userId": "6662880be499331d0f332871"
+}
+
